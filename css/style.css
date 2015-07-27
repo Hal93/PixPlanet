@@ -1,0 +1,139 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*Reset to Default*/
+* {
+	margin:0; 
+	padding:0;
+}
+
+/*Remove Scroll Bar*/
+html {
+	overflow-y: scroll;
+	overflow: scroll;
+}
+
+body {
+	background-color: #141313; /* Light Black Background*/
+}
+
+/*Container*/
+#container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+}
+
+.clear {clear: both;}
+
+#collect {
+	margin-top: 70px;
+}
+
+
+/*Star Rating Container*/
+.rating-container {
+	float: left;
+	height: 100%;
+	width: 750px;
+	margin-top: 19px;
+	margin-left: 200px;
+	background-color: #42403E;
+	clear: right;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.rating-container  h3 {
+	text-transform: capitalize;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-bottom: 10px;
+}
+
+.rating-container  p {
+	color:white;
+}
+
+.staravg {
+	width: 100%;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #0066FF;
+	height: 28px;
+	margin-top: 5px;
+}
+
+.staravg img {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+
+.errorclass {
+	color: #06F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.rating-block {
+	margin-top: 15px;
+	float: left;
+	color:white;
+}
+
+.rating-block h3 {
+	text-transform: capitalize;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.stars, .stars h2 {
+	float: left;
+	width: 400px;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 10px;
+}
+/*End of Star Rating Container*/
+
+/*Show Product/Member/Collection*/
+table {
+	background-color: #141313;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	width: 900px;
+}
+
+th  {
+	height: 20px;
+	text-align: center;
+}
+
+td {
+	width: 300px;
+	text-align: center;
+	
+}
+
+table, th, td {
+	border:1px solid orange;
+}
+
+.loading {
+	background: url(images/loading/ajax-loader.gif) no-repeat center center;
+	height:32px;
+	display:none;
+}

@@ -1,0 +1,159 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*Comments Outer Box*/
+.outer-comment  {
+	width:100%;
+	background-color: #212121;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 10px;
+	clear: both;
+	border-radius: 10px;
+}
+
+/*Error Div*/
+.error-comment {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+} 
+
+.error-comment h3 {
+	color: #FFF;
+	margin-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+.error-comment p {
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#error-comment h3 {
+	color:white;
+	text-align: center;
+}
+/*End of Error Div*/
+
+/*Comment Input Form*/
+#commentform {
+	background-color: #212121;
+	border: 4px solid #E77000 ;
+	width: 720px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#commentform  form {
+	width: 500px;
+	height:200px;
+	padding-top:10px;
+	margin-left:10px;
+}
+
+#commentform textarea {
+	width:695px;
+	height:100px;
+}
+
+#commentform input {
+	width:100px;
+	height:25px;
+}
+
+#commentform input:focus {
+	border: 2px solid #900;
+}
+
+#commentform label {
+	width:100px;
+	height:25px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color:white;
+}
+
+#commentform input.submit-button {
+	margin-top:10px;
+	margin-left: 595px;
+	border-radius: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+#commentform input.submit-button:hover {
+	background-color: #E77000;
+	color:white;
+}
+/*End of Comment Input Form*/
+
+/*Comments Title*/
+#commenthead {
+	text-align: center;
+	padding-top:15px;
+}
+
+#commenthead h3 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+/*End of Comments Title*/
+
+/*Display Comments*/
+#usercomments {
+	background-color: #42403E;
+	border: 4px solid #E77000;
+	width: 720px;
+	margin-left: auto;
+	margin-right:auto;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	border-radius: 10px;
+}
+
+#usercomments span {
+	color: #212121;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+#usercomments p {
+	color: #333333;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+
+#usercomments h4 {
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+/*End of Display Comments*/
+
+/*Comments Ratings*/
+#comment-rating {
+	height: 16px;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+/*Main Content Div*/
+#maincomment {
+	height: 100px;
+	margin-left:10px;
+}

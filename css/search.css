@@ -1,0 +1,70 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*Search*/
+#searchwrapper {
+	width: 220px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+
+#searchwrapper input.searchbox_submit, #searchdiv input.searchbox_submit {
+	width: 50px;
+	float: right;
+	height: 49px;
+	background-image: url(../images/search/search.png);
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 1px;
+	border: 4px solid gray;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#searchwrapper input.searchbox_submit:focus, #searchwrapper input.searchbox_submit:hover {
+	outline:none;
+	border: 4px solid #E77000;
+}
+
+
+#searchwrapper input[type="text"], #searchdiv input[type="text"]  {
+	width: 440px;
+	height: 45px;
+	margin-left: -380px;
+	border-radius: 10px;
+	border: 4px solid gray;
+	font-size: 25px;
+	background-color: #141313;
+	color:white;
+}
+
+#searchwrapper input[type="text"]:focus {
+	outline:none;
+	border: 4px solid #E77000;
+}
+
+.fullsearch {
+	clear: both;
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#searchdiv {
+	width: 500px;
+	margin-top: 5px;
+	margin-left: 530px;
+}
+
+#producttitle {
+	color:white;
+	padding-bottom:40px;
+}

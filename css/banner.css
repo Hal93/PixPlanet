@@ -1,0 +1,117 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+.top-header-full{
+	height: 125px;
+	width: 100%;
+	clear: both;
+	background-color: #313131;
+}
+.top-header-center{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 125px;
+}
+/*Logo*/
+#logo {
+	width:10px;
+	height:50px;
+	float: left;
+	margin-top:-10px;
+	margin-left: 205px;
+	margin-right: 230px;
+}
+#logo a {text-decoration: none;}
+#logo p {
+	color: #343839;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+#logo aimg {
+	background-size:150px 30px;
+}
+#logo span {
+	color: #2D3132;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 50px;
+}
+
+/*User Navigation*/
+#custom-login {
+	width: 350px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#custom-login form {
+	width: 350px;
+	float:right;
+	margin-top: 10px;
+	margin-left: 170px;
+}
+
+#custom-login a {
+	float:left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 5px;
+	text-decoration: none;
+	padding-right: 18px;
+}
+
+#custom-login h3 a {
+	float:right;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+#custom-login h3 a:hover {
+	color:black;
+}
+
+#custom-login input.submit-button {
+	width: 100px;
+	height: 25px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	line-height: 10px;
+}
+
+#custom-login label {color: #000;width: 20px;}
+#custom-login input {
+	width: 90px;
+	margin-right: 10px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #666;
+	background-color: #313131;
+	color: #FFF;
+	text-align: center;
+}
+
+/*Textbox Hints*/
+INPUT.hintTextbox  {color: #FFF;text-align: center;}
+INPUT.hintTextboxActive { color: #000; }

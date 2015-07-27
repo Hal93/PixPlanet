@@ -1,0 +1,102 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*100% Width Navigation*/
+.fullnav {
+	height:60px;
+	width: 100%;
+	background-color:#E77000;
+	background-repeat: repeat;
+}
+
+/*960px Width Navigation*/
+.centernav {margin-left:450px; height: 60px;width: 400px;}
+
+#menu {
+	list-style:none;
+	width:100%;
+	height:60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	z-index: 10;
+}
+
+#loginNav {
+	position:absolute;
+	margin-top:-60px;
+	margin-left:390px;
+	width: 400px;
+	height: 60px;
+}
+
+#custom-login {
+	margin-top: 9px;
+	margin-right:40px;
+}
+
+#custom-login form input[type="submit"] {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#custom-login form input[type="submit"]:hover {
+	background-color: #141313;
+	color:white;
+}
+
+#custom-login form input[type="submit"]:focus {
+	outline:none;
+}
+
+#custom-login form input[type="text"] {
+	outline: none;
+}
+
+#custom-login form input[type="text"]:focus {
+	border:2px solid white;
+}
+
+#custom-login form input[type="password"]:focus {
+	border:2px solid white;
+}
+
+#custom-login form input[type="password"] {
+	outline: none;
+}
+
+
+
+#menu li {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	margin-right:6px;
+	border:none;
+}
+
+#menu li:hover {
+	background: #F4F4F4;
+	background-color: #141313;
+}
+
+#menu li a {
+	/*color: #141313;*/
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	display:block;
+	outline:0;
+	text-decoration:none;
+	height: 60px;
+	width: 120px;
+	line-height: 60px;
+}
+
+#menu li:hover a {color:white}
+#menu ul, li {font-size:14px;font-family:Arial, Helvetica, sans-serif;line-height:21px;text-align:left;}

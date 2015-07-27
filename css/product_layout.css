@@ -1,0 +1,432 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*product Divs*/
+.product-divs {
+	float: left;
+	margin-left: 30px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+	background-color:#42403E;
+	padding:5px;
+	border-radius:7px;
+}
+
+.product-divs:hover {
+	background-color: #E77000; /* Orange Color*/
+}
+
+
+.product-divs p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #313131;
+}
+.product-divs a {
+	color: #0000FF;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #5baabd;
+	min-height: 300px;
+}
+
+.product-divs img {
+	height: 150px;
+	width: 150px;
+	margin-top:2px;
+	border-radius:7px;
+}
+
+/*End of product Divs*/
+
+/*Left Column Divs*/
+.left-column {
+	float: right;
+	overflow: hidden;
+	width: 215px;
+	height: 1%;
+	margin-bottom: 15px;
+	margin-top:30px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #666;
+}
+
+.left-column h2 {
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 21px;
+	text-align: center;
+}
+
+
+/*End of Left Column Divs*/
+
+/*Right Column Div*/
+.right-column {
+	top:-50px;
+	width: 783px;
+	height:100%;
+	padding-top: 50px;
+}
+
+.right-column2 {
+	
+	width: 783px;
+	height:100%;
+	padding-top: 10px;
+}
+
+#Searchbox  {
+	padding-bottom: 150px;
+}
+
+#searchwrapper form input{
+	width: 200px;
+	height: 50px;
+}
+
+.right-column h2 {
+	text-align: center;
+	color: #666;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*End of Right Column Div*/
+
+/*Left Divs col*/
+.left-divs-cols {
+	height: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	padding:7px;
+	background-color: #42403E;
+	border-radius: 10px;
+}
+
+.left-divs-cols:hover {
+	background-color: #E77000;
+}
+
+.left-choicediv {
+	height: 100%;
+	width: 215px;
+	float: left;
+	min-height: 20px;
+	max-height:80px;
+	margin-top: 20px;
+}
+
+.left-choicediv input[type="button"] {
+	width: 180px;
+	height: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+	font-weight: bold;
+	background-color: gray;
+	margin-left: 15px;
+	border-radius: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.left-choicediv input[type="button"]:hover {
+	background-color: #E77000;
+	color:white;
+}
+
+.left-divs-cols h3 a {
+	color: #0066CC;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 110px;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 20px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.left-divs-cols img  {
+	float: left;
+	height: 150px;
+	width: 150px;
+}
+/*End of Left Divs col*/
+
+/*producttitle*/
+#producttitle {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*notfound*/
+#notfound {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	color:white;
+	margin-bottom: 100%;
+}
+
+/*Product Details Page*/
+.product {
+	width: 100%;
+	background-color: #FFF;
+	background-color: #FFF;
+	height: 100%;
+	min-height: 100%;
+}
+
+.product-info {
+	float: left;
+	height: 100%;
+	width: 750px;
+	margin-top: 19px;
+	margin-left: 20px;
+	background-color: #42403E;
+	clear: right;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.product-info ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.product-info li, .product-info li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+}
+
+.product-info span {
+	color: #0066FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.product-info h3 {
+	color: #0066FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+.product-info a {
+	text-decoration: none;
+	color: #0066FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.product-info a:hover {
+	color: #FF0000;
+}
+
+.product-title {
+	height: 32px;
+	width: auto;
+	float: left;
+	margin-top: 15px;
+}
+
+.product-title h2 {
+	color: #06F;
+	font-size: 2px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.product-stars {
+	height: 11px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.product-image {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid #333333;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #42403E;
+	border-radius: 10px
+}
+
+.product-image:hover{
+	background-color: #E77000;
+}
+
+.product-details {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-left: -170px;
+	margin-top: 200px;
+	background-color: #42403E;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.product-details h3 {
+	font-size: 15px;
+	padding-bottom:8px;
+}
+
+.product-details ul {
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.social-links {
+	height: 32px;
+	width: 150px;
+	float: left;
+	margin-left: -170px;
+	margin-top: 380px;
+	background-color: #42403E;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.social-links span {
+	padding:0px;
+	margin:0px;
+}
+
+.product-image img {
+	height: 150px;
+	width:150px;
+	border-radius: 10px
+}
+
+.product-storyline {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.product-storyline p {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+
+	text-align: justify;
+}
+
+.product-storyline p a {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #F00;
+	margin-top: 10px;
+	float: left;
+}
+
+.product-storyline p a:hover {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #00F;
+}
+
+.product-storyline h3 {
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.product-review {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 40px;
+	float: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+
+.product-review p {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	margin-right: 35px;
+	margin-left: 35px;
+	text-align: justify;
+}
+
+.product-review p a {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #F00;
+	margin-top: 10px;
+	float: left;
+}
+
+.product-review p a:hover {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #00F;
+}
+
+.product-review h3 {
+	margin-top: 10px;
+	color: #0066FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-left: 35px;
+}
+/*End of Product Details Page*/
+
+/*Member and admin Settings*/
+.adminsettings {
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.adminsettings span {
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.membersettings {
+	float: left;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-bottom: 10px;
+	position: absolute;
+}
+
+.membersettings span {
+	float: right;
+	margin-left: 15px;
+	line-height: 35px;
+	color:white;
+}

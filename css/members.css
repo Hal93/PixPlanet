@@ -1,0 +1,135 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*Members Page*/
+.members {
+	width: 560px;
+	background-color:#42403E;
+	height: 100%;
+	margin-top:20px;
+	margin-bottom: 100%;
+	border-radius: 10px;
+	border: 4px solid #E77000;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#admin-button-table button{
+	font-size: 15px;
+	font-weight: bold;
+	width:240px;
+	margin-left: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#members-button-table button {
+	font-size: 15px;
+	font-weight: bold;
+	width:240px;
+	margin-left: 150px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+}
+
+#admin-button-table li {
+	display: inline;
+}
+
+#admin-button-table button:hover{
+	background-color: orange;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#members-button-table button:hover{
+	background-color: orange;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#members-button-table button:focus {
+	outline: none;
+}
+
+#admin-button-table button:focus {
+	outline: none;
+}
+
+
+.members-title {
+	height: 32px;
+	width: 420px;
+	float: left;
+	margin-top: 15px;
+	color:white;
+}
+
+.members-title h2 {
+	color:white;
+    font-family: Verdana, Geneva, sans-serif;	
+    text-align: center;
+    margin-left:150px;
+}
+
+.members-info button {
+	color:black;
+	background-color: white;
+	width: 400px;
+	border-radius:10px;
+	height:30px;
+	padding:bottom:5px;
+
+}
+
+.members-info {
+	height: auto;
+	width: 560px;
+	background-color: #42403E;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+.members-info li, .members-info span,.members-info h3, .members-info h4, .members-info a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;	
+}
+
+.members-info ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.members-info li {
+	color:white;
+	font-weight: bolder;
+}
+
+.members-info span {
+	color: #141313;
+	font-weight: bolder;
+}
+
+.members-info h3 {
+	color:white;
+	margin-top: 4px;
+	margin-left: 150px;
+}
+
+.members-info a {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	padding:5px;
+	border-radius: 10px;
+	margin-top:10px;
+}
+
+.members-info a:hover {color: #FF0000;}
+/*End of Members Page*/

@@ -1,0 +1,120 @@
+/*
+	//Name: Dean O Halloran
+	//Version: 1.1
+	//Decemeber 2014
+	//Image Sharing Web Application 
+*/
+
+/*submit Us Heading*/
+#submit-head {
+	text-align: center;
+	height: 30px;
+	width: 700px;
+	color: white;
+	background-color:#313131;
+	border-radius: 10px;
+	border: 4px solid orange;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	padding:5px;
+	font-size: 21px;
+	margin-left:150px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*submit Form*/
+#submit-area  {
+	width: 709px;
+	margin-top: 20px;
+	margin-bottom: 100%;
+	margin-right: auto;
+	margin-left: 150px;
+	background-color: #313131;
+	padding-top: 10px;
+	height: 100%;
+	padding-bottom: 1px;
+	border-radius: 10px;
+	border: 4px solid orange;
+}
+
+#submit-area form  {
+	margin-top: 50px;
+	background-color: #313131;
+	height: auto;
+	padding-bottom: 100px;
+	border-radius: 10px;
+}
+
+#submit-area input, #submit-area textarea, #submit-area select {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+}
+
+#submit-area input, #submit-area select {
+	padding: 5px;
+	width: 200px;
+}
+
+#submit-area textarea  {
+	margin-left: 295px;
+	margin-top: -27px;
+	width: 310px;
+}
+
+#submit-area textarea:focus, #submit-area input:focus {
+	border: 5px solid orange;
+}
+
+#submit-area input.submit-button {
+	width: 100px;
+	float: right;
+	color: #FFF;	
+	background-color: #2d2d2d;
+	margin-top: 10px;	
+	margin-right: 55px;
+	border-radius: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#submit-area input.submit-button:hover {
+	background-color: orange;
+	color:black;
+}
+
+#submit-area label  {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	padding-top: 5px;
+	font-size: 1.4em;
+	color: #CCC;
+	width: 150px;
+	margin-left: 130px;	
+}
+
+#submit-area input[type="button"] {
+	width: auto;
+	margin-left: 335px;
+	background-color: #333;
+	color: #FFF;
+}
+
+#submit-area input[type="file"], #submit-area input[type="text"] {
+	width: 300px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#submit-area input[name="image"] {
+	color:white;
+}
+
+#dynamicDivContain {
+	width: 700px;
+	height: 100%;
+	float: left;
+}
+
